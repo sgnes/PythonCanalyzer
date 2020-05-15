@@ -22,13 +22,22 @@ pip install pywin32
 pip install pypiwin32
 ```
 
+## What this tool can do
 
-### This tool will open a CANalyzer configuration, and provide below functionlity:
+This tool will open a CANalyzer configuration(To minimum the code size, this tool will not create this configuration, user has to create it manually), and provide below functionlity:
+
 1. Call CAPL functions;
 2. Get CAN bus signal value;
 3. Send CAN bus signal value(via CAPL functionlity)
 
+## Why this tool
+
+You should already know that Canalyzer support CAPL script, so why create this new tool?
+
+This tool is part of [EcuAutoTest](https://github.com/sgnes/EcuAutoTest),  EcuAutoTest is used to control Vector CANalyzer and CANape in one script, to do some ECU auto test.
+
 ### A demo:
+
 ```python
 from python_canalyzer import PythonCanalyzer
 
@@ -45,7 +54,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Guopeng SUN** - *Initial work* - [Guopeng SUN](https://github.com/sgnes)
+* **[Sgnes](sgnes0514@gmail.com)** - *Initial work* - 
 
 See also the list of [contributors](https://github.com/sgnes/PythonCanalyzer/contributors) who participated in this project.
 
