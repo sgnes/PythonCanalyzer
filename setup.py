@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="python_canalyzer", # Replace with your own username
-    version="0.0.2",
+    version="0.0.3",
     author="Guopeng Sun",
     author_email="sgnes0514@gmai.com",
     description="Vector CANalyzer Win32Com",
